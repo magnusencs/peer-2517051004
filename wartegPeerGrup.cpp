@@ -1,3 +1,14 @@
+#include <iostream> 
+#include <vector>
+using namespace std;
+
+	void warteg (){
+		int prices[7] = {23,23,12,34,12,34,12}; // array yang menyimpan harga makanan, untuk array ke i adalah harga makanan ke i
+		vector <string> pesanan; // vector yang menyimpan pesanan user
+		int hargatotal=0; // variabel yang menyimpan total harga pesanan user
+		string makanan[7] = {"mie ayam boyolali", "bakso fuad", "sate ambabull", "nasi padang", "nasi goreng mas narji", "es teh simanis", "kopi hitam jawa"}; // array yang menyimpan nama makanan
+//Sampe sini bagian Wenno
+
 char y; // variabel untuk menampung jawaban user apakah ingin memesan lagi atau tidak
 		do {
 		
