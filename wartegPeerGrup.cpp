@@ -43,5 +43,20 @@ char y; // variabel untuk menampung jawaban user apakah ingin memesan lagi atau 
 		cout<<" dengan total harga: "<<hargatotal<<"000"<<endl;
 	}
 	//SAMPE SINI BAGIAN FAJRI
+	
+	int main () {
+		char ye;
+		do {
+		
+		cout<<"Selamat Datang di warteg mas fuad: \n";
+		warteg(); // memanggil fungsi warteg
+		cout<<"ingin kembali memesan? (y/n}: ";
+		cin>>ye;
+	} while (ye == 'y' || ye == 'Y');
+	
+	cout<<"Terimakasih sudah memesan!"; // pesan penutup
+	return 0;
+	}
 
+	//SAMPE SINI BAGIAN MICHAEL
 		
