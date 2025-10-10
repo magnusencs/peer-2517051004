@@ -29,3 +29,19 @@ char y; // variabel untuk menampung jawaban user apakah ingin memesan lagi atau 
 		pesanan.push_back(makanan[ask-1]); // menambahkan makanan yang dipilih user ke vector pesanan
 	
 	} //SAMPE SINI BAGIAN HABIB
+	 cout<<" ingin memesan lagi? (y/n): "; // menanyakan user apakah ingin memesan lagi
+	
+		cin>>y;
+			
+		} while (y=='y' || y == 'Y');
+			cout<<"ANDA MEMESAN: \n"; //jika user tidak ingin memesan lagi, mencetak pesanan dan total harga
+		for (int m = 0; m<pesanan.size(); ++m)
+		{
+			cout<<pesanan[m];
+			if (m !=pesanan.size()-1 )cout<<", "<<endl;
+		}
+		cout<<" dengan total harga: "<<hargatotal<<"000"<<endl;
+	}
+	//SAMPE SINI BAGIAN FAJRI
+
+		
